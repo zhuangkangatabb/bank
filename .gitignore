@@ -1,0 +1,28 @@
+# Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python environment and packaging
+.Python
+venv/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# macOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+Desktop.ini
