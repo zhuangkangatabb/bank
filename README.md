@@ -26,6 +26,7 @@ This project implements a basic banking API for bank employees, supporting accou
 
 1. Install dependencies:
    ```bash
+   poetry lock
    poetry install
 
 2. Start the API:
@@ -37,7 +38,7 @@ generates http://127.0.0.1:8000, then the API link is http://127.0.0.1:8000/docs
 
 3. Test:
    ```bash
-   poetry run pytest .\tests\test_overalll.py
+   poetry run pytest .\tests\test_all.py
 
 ## Note
 It might not work on Apple Safari
